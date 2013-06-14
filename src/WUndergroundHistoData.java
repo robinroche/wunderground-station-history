@@ -58,7 +58,7 @@ public class WUndergroundHistoData
 		String stationId = "IBELFORT2";
 		
 		
-		/* PARAMETERS */		
+		/* GET THE WEATHER STATION */		
 		
 		// Create an instance of WeatherStationService
 		WeatherStationService weatherStationService = new WeatherStationService();
@@ -81,6 +81,9 @@ public class WUndergroundHistoData
 				targetStation = weatherStation;
 			}
 		}
+		
+		
+		/* GET THE DATA FOR EACH DAY */	
 		
 		// For each month
 		for(int i=1;i<=12;i++)
@@ -127,6 +130,9 @@ public class WUndergroundHistoData
 			}
 		}
 
+		
+		/* SAVE THE RESULTS TO A FILE */	
+		
 		// Save results to a CSV file
 		saveResults();
 
