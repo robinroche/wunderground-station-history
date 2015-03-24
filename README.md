@@ -26,7 +26,9 @@ If everything is operational (you need to import the wunderground-core JAR libra
 
 ### Sample output
 
-Sample measurements from the IBELFORT2 weather station.
+Sample measurements from the IBELFORT2 weather station, as plot automatically by wunderground:
+
+![Sample output plot](http://robinroche.com/webpage/images/Wxstationgraphall.gif)
 
 ### Limitations
 
